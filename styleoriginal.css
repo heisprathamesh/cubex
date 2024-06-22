@@ -1,0 +1,227 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #08132b;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-right: 50px;
+    position: relative;
+    height: 80px;
+    background-color: #00000018;
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    color: white;
+    z-index:4000;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 17px;
+    font-family: 'poppins';
+    list-style: none;
+    
+}
+.nav li{
+    padding: 5px 20px;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;border-radius: 5px;
+}
+.nav li:hover{
+    background-color: #00000042;
+}
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+.logoimg{
+    position: absolute;
+    width: 80px;
+    top: -20px;
+    left: 100px;
+    object-fit: cover;
+    z-index: 3;
+}
+
+.secmain{
+    display: flex;
+    justify-content: center;
+    gap: 230px;
+    flex-wrap: wrap;
+    height: 110vh;
+    background-image: linear-gradient(78deg, #7885a7, #a2b2df , #e7eeff);
+    background-image: url("481558.jpg");
+    background-attachment: fixed;
+    
+    background-size: cover;
+    border-bottom: 10px solid  rgba(19, 54, 102, 0.288);
+
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    background: transparent;
+    gap: 20px;
+}
+.intro h1{
+    font-size: 36px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.intro p{
+    font-size: 25px;
+    font-family: 'poppins';
+}
+
+.cubimg{
+    width:520px;
+    height:520px;
+    margin-top: 100px;
+    z-index: 5;
+    animation: tyu 60s linear infinite;
+
+    
+}
+@keyframes tyu{
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg);
+
+    }
+}
+
+
+/*featured products*/
+
+.sec2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: 100vh;
+    background-image: url("nS609D.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #80baf0;
+    border-bottom: 10px solid #00000044;
+}
+.sec2 h1{
+    font-size: 36px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 50px;
+    color: white;
+   
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.pro{
+    width: 200px;
+    height:170px;
+    background-color: lightcoral;
+
+}
+
+
+/*why*/
+
+.why{
+    font-size: 36px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 50px;
+    margin-bottom: 80px;
+    background-image: url("27.3d-rendering-cube-blocks-with-neon-lights.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    border-bottom: 10px solid rgba(0, 0, 0, 0.192);
+}
+
+/*flexing flexing*/
+
+.flexes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:100px;
+    margin-bottom: 200px;
+    padding: 20px 50px;
+}
+.flexes h1{
+    font-size: 26px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.info{
+    width: 50%;
+    padding: 10px 20px;
+}
+
+.sec3 , .sec5{
+    flex-direction: row-reverse;
+
+}
+.images{
+    border-radius: 50%;
+    height:300px;
+    width: 300px;
+}
+
+
+/*convince*/
+
+.convince{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    border-radius: 100px 100px 100px 100px;
+    gap: 20px;
+    background-image: url("27.3d-rendering-cube-blocks-with-neon-lights.jpg");
+    background-size: cover;
+    height: 60vh;
+    width: 95%;
+    margin-left: 2.5%;
+    box-shadow: 5px 5px 10px black;
+    border: 1px solid #000000;
+
+}
+.convince h1{
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.convince p{
+    font-size:20px;
+    font-family:'poppins';
+}
+
+
+/*footer*/
+
+.footer{
+    background-color: black;
+    color: #929292;
+}
+
